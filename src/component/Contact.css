@@ -1,0 +1,48 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid silver; */
+  margin-top: 3em;
+}
+
+.contact-card {
+  height: 20em;
+  width: 15em;
+  /* border: 1px solid transparent; */
+  box-shadow: 1px 1px 10px var(--color, #000);
+  border-radius: 1em;
+}
+
+.contact-card-container {
+  height: 12em;
+  width: 100%;
+}
+
+.contact-image-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 1em;
+  /* aspect-ratio: 1/1; */
+}
+
+.contact-image {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 1em;
+  object-fit: cover;
+  border-top-right-radius: 1em;
+  /* aspect-ratio: 1/1; */
+}
+
+.contact-description-container {
+  display: flex;
+  flex-direction: column;
+  padding-block: 1.5em;
+}
+
+.contact-description-container > * {
+  margin-inline-start: 1em;
+  padding: 0.3em;
+}

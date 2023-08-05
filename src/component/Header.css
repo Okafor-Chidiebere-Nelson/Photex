@@ -1,0 +1,19 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: var(--color, #000);
+  color: var(--color, #fff);
+}
+
+.title {
+  font-style: italic;
+  font-size: 2em;
+}
+
+.nav-list-container {
+  list-style: none;
+  display: flex;
+  gap: 1em 1em;
+}
