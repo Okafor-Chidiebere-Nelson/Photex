@@ -10,7 +10,7 @@ function Header() {
         <ul className="nav-list-container">
             <li className="nav-list-item">About</li>
             <li className="nav-list-item">Contacts</li>
-            <li className="nav-list-item">Photo Bank</li>
+            <li className="nav-list-item">PBank</li>
         </ul>
       </nav>
     </header>
